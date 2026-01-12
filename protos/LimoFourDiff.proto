@@ -31,7 +31,7 @@ PROTO LimoFourDiff [
             rotation 0.000000 0.000000 1.000000 1.570000
             children [
               DEF limo_base_visual CadShape {
-                url "/home/lsbean991/workspace/others/limo_gazebo/limo_description/meshes/limo_base.dae"
+                url "/home/lsbean991/workspace/limo_ws/webots_ros2_limo/meshes/limo_base.dae"
               }
             ]
           }
@@ -187,7 +187,7 @@ PROTO LimoFourDiff [
               translation 0.100000 0.065000 -0.100000
               children [
                 DEF limo_wheel_visual CadShape {
-                  url "/home/lsbean991/workspace/others/limo_gazebo/limo_description/meshes/limo_wheel.dae"
+                  url "/home/lsbean991/workspace/limo_ws/webots_ros2_limo/meshes/limo_wheel.dae"
                 }
               ]
               name "front_left_wheel_link"
